@@ -42,10 +42,7 @@ nav ul {
 }
 
 .logo-text {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #ffffff;
-  margin-right: 1rem;
+  color: transparent;
 }
 
 nav ul li a {
@@ -535,9 +532,9 @@ footer {
 
 /* Team Members Section */
 .team-members {
-  margin: 4rem auto;
-  max-width: 1200px;
-  padding: 2rem;
+  margin: auto;
+  max-width: 250000px;
+  padding: 3rem;
 }
 
 .team-title {
@@ -550,18 +547,18 @@ footer {
 
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  gap: 1rem;
   justify-items: center;
 }
 
 .member-card {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -587,6 +584,11 @@ footer {
 
 .member-info h4 {
   color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.member-melek h4 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
@@ -747,4 +749,65 @@ footer {
 
 .email-link i {
   font-size: 1.5rem;
+}
+
+.melek {
+  background: linear-gradient(
+    45deg,
+    rgb(50, 0, 70),
+    rgb(80, 0, 120),
+    rgb(110, 0, 170),
+    rgb(140, 0, 220),
+    rgb(140, 10, 143),
+    rgb(140, 10, 143),
+    rgb(165, 33, 247),
+    rgb(120, 20, 160),
+    rgb(90, 0, 130),
+    rgb(70, 0, 110)
+  );
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+
+.altinlogo {
+  background: linear-gradient(
+    45deg,
+    rgb(184, 134, 11),
+    rgb(205, 155, 29),
+    rgb(218, 165, 32),
+    rgb(238, 180, 34),
+    rgb(255, 193, 37),
+    rgb(255, 215, 0),
+    rgb(238, 180, 34),
+    rgb(218, 165, 32),
+    rgb(205, 155, 29),
+    rgb(184, 134, 11)
+  );
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
