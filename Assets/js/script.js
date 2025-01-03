@@ -91,9 +91,8 @@ function konamiCodeCheck(event) {
 }
 
 function activateEasterEgg() {
-  document.getElementById("desc2").innerHTML = "You Found";
-  document.getElementById("desc3").innerHTML = "The Secret!";
-  document.getElementById("desc4").innerHTML = "Congratulations!";
+  document.getElementById("desc1").innerHTML = "You Found The Secret!";
+  document.getElementById("desc2").innerHTML = "Congratulations!";
 
   console.log(
     "%c Easter Egg ",
