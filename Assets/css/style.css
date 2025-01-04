@@ -5,6 +5,32 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Kaydırma çubuğunun genel görünümü */
+::-webkit-scrollbar {
+  width: 13px; /* Kaydırma çubuğunun genişliği */
+  height: 13px; /* Yatay kaydırma çubuğunun yüksekliği */
+}
+
+/* Kaydırma çubuğunun arka planını özelleştir */
+::-webkit-scrollbar-track {
+  background-color: rgba(251, 246, 246, 0.779); /* Arka plan rengi */
+}
+
+/* Kaydırma çubuğunun kendisini (thumb) özelleştir */
+::-webkit-scrollbar-thumb {
+  background-color: #383e44; /* Thumb rengi */
+}
+
+/* Kaydırma çubuğunun üzerinde fare ile gezinildiğinde görünümünü değiştir */
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(
+    52,
+    58,
+    64,
+    0.95
+  ); /* Fare ile üzerine gelindiğinde renk değişimi */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,7 +39,6 @@ body {
   line-height: 1.6;
   color: #333;
 }
-
 /* Header Styles */
 header {
   position: fixed;
@@ -55,6 +80,12 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #3498db;
+}
+
+@media (max-width: 768px) {
+  nav ul li a {
+    font-size: 0.7rem;
+  }
 }
 
 /* Hero Section */
@@ -975,6 +1006,7 @@ footer {
   -moz-background-clip: text;
   -ms-background-clip: text;
   color: transparent;
+  text-align: left;
   animation: rainbow 4s linear infinite;
 }
 
