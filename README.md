@@ -4,4 +4,4 @@ ALT-BOZBEY TAKIMI WEBSİTESİ
 
 https://altbozbey.com.tr/
 
-![websitestatus](https://img.shields.io/website-up-down-green-red/https://altbozbey.com.tr/)
+![websitestatus](https://img.shields.io/website-up-down-green-red/http/altbozbey.com.tr/)
