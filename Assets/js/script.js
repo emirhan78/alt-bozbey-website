@@ -1,3 +1,18 @@
+console.clear(); // Konsolu temizle
+console.log(
+  "Merhaba! Eğer buraya kadar geldiysen, kodlarımı incelemeye başlamışsındır. Eğer bir sorunla karşılaşırsan, benimle iletişime geçebilirsin. İyi incelemeler! 🚀"
+);
+console.log(
+  "%cDİKKAT",
+  "color: red; font-size: 60px; font-weight: bold; text-decoration: underline;"
+);
+console.log(
+  `%c\nBu site Anlayana.com® sponsorluğunda yapılmıştır. \nİletişim için = %ctexapy@proton.me %cadresine ulaşınız.`,
+  "color: black; font-size: 16px;",
+  "color: orange; font-size: 16px;", // Burada sadece turuncu renk kullandık
+  "color: black; font-size: 16px;"
+);
+
 // Form submission handler
 function sendEmail(event) {
   event.preventDefault();

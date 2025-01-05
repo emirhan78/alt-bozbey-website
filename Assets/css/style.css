@@ -966,16 +966,39 @@ footer {
 .melek {
   background: linear-gradient(
     45deg,
-    rgb(50, 0, 70),
-    rgb(80, 0, 120),
-    rgb(110, 0, 170),
-    rgb(140, 0, 220),
-    rgb(140, 10, 143),
-    rgb(140, 10, 143),
-    rgb(165, 33, 247),
-    rgb(120, 20, 160),
-    rgb(90, 0, 130),
-    rgb(70, 0, 110)
+    rgb(0, 50, 70),
+    rgb(0, 80, 120),
+    rgb(0, 110, 170),
+    rgb(0, 140, 220),
+    rgb(10, 140, 143),
+    rgb(10, 140, 143),
+    rgb(33, 165, 247),
+    rgb(20, 120, 160),
+    rgb(0, 90, 130),
+    rgb(0, 70, 110)
+  );
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+
+.kapitan {
+  background: linear-gradient(
+    45deg,
+    rgb(139, 0, 0),
+    rgb(165, 42, 42),
+    rgb(178, 34, 34),
+    rgb(220, 20, 60),
+    rgb(255, 69, 0),
+    rgb(255, 140, 0),
+    rgb(255, 165, 0),
+    rgb(255, 99, 71),
+    rgb(255, 127, 80),
+    rgb(255, 160, 122)
   );
   background-size: 200% 200%;
   background-clip: text;
