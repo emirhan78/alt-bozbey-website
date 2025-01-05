@@ -4,7 +4,7 @@ console.log(
 );
 console.log(
   "%cDİKKAT",
-  "color: red; font-size: 60px; font-weight: bold; text-decoration: underline;"
+  "color: red; font-size: 100px; font-weight: bold; text-decoration: underline;"
 );
 console.log(
   `%c\nBu site Anlayana.com® sponsorluğunda yapılmıştır. \nİletişim için = %ctexapy@proton.me %cadresine ulaşınız.`,
