@@ -7,7 +7,9 @@ console.log(
   "color: red; font-size: 100px; font-weight: bold; text-decoration: underline;"
 );
 console.log(
-  `%c\nBu site Anlayana.com® sponsorluğunda yapılmıştır. \nİletişim için = %ctexapy@proton.me %cadresine ulaşınız.`,
+  `%c\nBu site %cAnlayana.com® %csponsorluğunda yapılmıştır.\nİletişim için = %ctexapy@proton.me %cadresine ulaşınız.`,
+  "color: black; font-size: 16px;",
+  "color: purple; font-size: 20px; font-weight: bold;",
   "color: black; font-size: 16px;",
   "color: orange; font-size: 16px;", // Burada sadece turuncu renk kullandık
   "color: black; font-size: 16px;"
@@ -373,7 +375,7 @@ function toggleLeavesVisibility() {
     console.log("Sonbahardayız, yapraklar dökülüyor!");
     leavesDiv.style.display = "block"; // Görünür yap
   } else {
-    console.log("Sonbahar da değiliz, yapraklar yerinde :)");
+    console.log("Sonbahar da değiliz");
     leavesDiv.style.display = "none"; // Gizle
   }
 }
