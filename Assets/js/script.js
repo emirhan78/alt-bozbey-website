@@ -1,3 +1,4 @@
+// LET JUSTICE BE DONE, THOUGH THE HEAVENS FALL. //
 console.clear(); // Konsolu temizle
 console.log(
   "Merhaba! Eğer buraya kadar geldiysen, kodlarımı incelemeye başlamışsındır. Eğer bir sorunla karşılaşırsan, benimle iletişime geçebilirsin. İyi incelemeler! 🚀"
@@ -13,6 +14,11 @@ console.log(
   "color: black; font-size: 16px;",
   "color: orange; font-size: 16px;", // Burada sadece turuncu renk kullandık
   "color: black; font-size: 16px;"
+);
+console.log(
+  "%cLET JUSTICE BE DONE, %cTHOUGH THE HEAVENS FALL.",
+  "color: red; font-weight: bold; font-size: 16px;",
+  "color: white; background-color: black; font-weight: bold; font-size: 16px;"
 );
 
 // Form submission handler
